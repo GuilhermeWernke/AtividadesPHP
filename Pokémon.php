@@ -18,11 +18,11 @@
 
     print("Altura: ");
     print_r($pokemon['height'] / 10);
-    print("\n");
+    print(" M\n");
 
     print("Peso: ");
-    print_r($pokemon['weight']);
-    print("\n");
+    print_r($pokemon['weight'] / 10);
+    print(" Kg\n");
 
     foreach($pokemon['moves'] as $move)
     {
