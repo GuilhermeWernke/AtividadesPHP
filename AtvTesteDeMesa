@@ -129,6 +129,6 @@ Atv10:
   
       $frase = str_replace($caracter, "", $frase);
   
-      print("frase depois da remoção: \n $frase")
+      print("frase depois da remoção do $caracter: \n $frase")
       
   ?>
