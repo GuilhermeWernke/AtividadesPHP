@@ -1,47 +1,14 @@
 <?php
-     
-    $dados_em_texto;
-    $pos_ataque = 1;
-    $qual_pokemon;
 
-    print("Escolha um pokemon usando somente letras minusculas! \n");
-    $qual_pokemon = readline("\n");
-    $dados_em_texto = file_get_contents("https://pokeapi.co/api/v2/pokemon/$qual_pokemon");
-    
-
-
-    $pokemon = json_decode($dados_em_texto, true);
-
-    print("Nome: ");
-    print_r($pokemon['name']);
-    print("\n");
-
-    print("Altura: ");
-    print_r($pokemon['height'] / 10);
-    print(" M\n");
-
-    print("Peso: ");
-    print_r($pokemon['weight'] / 10);
-    print(" Kg\n");
-
-    foreach($pokemon['moves'] as $move)
-    {
-        print("Ataque $pos_ataque: " . $move['move']['name'] . "\n");
-        $pos_ataque++;
-    }
-?>
-
-<?php
-
-    $pokeapi = file_get_contents("https://pokeapi.co/api/v2/pokemon?limit=100000&offset=0");
+    $pokeapi = file_get_contents("https://pokeapi.co/api/v2/pokemon?limit=100000");
     $pokemons = json_decode($pokeapi, true);
 
-    for($i = 0; $i < 20; $i++)
+    for($i = 0; $i < 151; $i++)
     {
         $pokemon = $pokemons['results'][$i];
 
         $todas_info_api = file_get_contents($pokemon['url']);
-        $pokemon['results'][$i] = json_decode($todas_info_api, true);
+        $pokemons['results'][$i] = json_decode($todas_info_api, true);
     }
     
 ?>
@@ -74,13 +41,16 @@
 
             .pokemon img 
             {
-
+                max-width: 100%;
+                height: 150px;
             }
 
         </style>
     </head>
 
     <body>
+
+
         <div id="Pesquisa">
             <form>
 
@@ -91,14 +61,15 @@
             </form>
         </div>
 
-        <?php for($i = 0; $i < 20; $i++):?>            
-            <div id="pokémons">
+        <?php for($i = 0; $i < 151; $i++):?>    
+            
+            <div id="pokemons">
 
                 <div class="pokemon">
-                    <img src="<?= $pokemons['results'][$i]['sprites']['others']['dream_world']['front_default'] ?>" width="200"> 
+                    <img src="<?= $pokemons['results'][$i]['sprites']['other']['dream_world']['front_default'] ?>" width="200"> 
                     <h1><?= $pokemons['results'][$i]['name'] ?></h1> 
-                    <p>peso: 54</p> 
-                    <p>altura: 1,2</p>
+                    <p>peso: <?= ($pokemons['results'][$i]['weight'])/10?></p> 
+                    <p>altura: <?= ($pokemons['results'][$i]['height'])/10?></</p>
                     <br>                  
                 </div>
             </div>
