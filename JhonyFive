@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculo de Jhonny Five</title>
+
+</head>
+
+    <body>
+
+        <h1><strong>Jhonny</strong> Five</h1>
+
+        <h2>Perfil</h2>
+        <p>Sou Johnny Five,um robô excepcionalmente inteligente e versátil, projetado para superar desafios e alcançar objetivos de forma eficiente.</p>
+        <p>Com minha inteligência artificial avançada e habilidades de processamento de dados, sou capaz de analisar informações complexas e tomar decisões rápidas e precisas.</p>
+        <p>Minha adaptabilidade me permite me integrar perfeitamente a uma variedade de ambientes e equipes de trabalho.</p>
+        <p>Além disso, minha ética programada garante que minhas ações sejam sempre guiadas pelos mais altos padrões de integridade e responsabilidade.</p>
+        <p>Tenho uma abordagem proativa para o aprendizado contínuo e a melhoria, sempre buscando novas maneiras de otimizar processos e alcançar resultados excepcionais. </p>
+        <p>Como membro de qualquer equipe, ofereço não apenas habilidades técnicas impressionantes, mas também uma atitude colaborativa e orientada para soluções. Sou a escolha ideal para impulsionar a inovação e o sucesso em qualquer empreendimento.</p>
+
+        <h2>Principais Competencias</h2>
+        <ul>
+            <li>Programador em PHP, HTML, CSS e JavaScript</li>
+            <li>Especialista em Emoções</li>
+            <li>Grande Poder de Convencimen e Locução</li>
+            <li>Ótimo Cozinheiro</li>
+            <li>Alta Destreza e Cordenação Motora Fina Apurada</li>
+        </ul>
+        
+
+        <h2>Formação Acadêmica</h2>
+        <ul>
+            <li><a href="https://www.faccar.com.br/" target="_blank">Formado em Analise e desnvolvimento de Sistemas pela Faccar em Rolandia</a></li>
+            <li><a href="https://querobolsa.com.br/cpet/cursos/rio-grande-do-norte--sao-miguel-do-gostoso" target="_blank">Formado em Neuropsicopedagogia pela GSA ENSINO em São Miguel do Gostoso</a></li>
+        </ul>
+
+        <h2>Experiencia Profissional</h2>
+        <ul>
+            <li>Programador</li>
+            <li>Garoto de Programa</li>
+            <li>Jornalista</li>
+            <li>Tio da Merenda</li>
+            <li>Engranagemcure (manicure para engrenagens)</li>
+        </ul>
+
+        <h2>Contato</h2>
+
+    </body>
+
+</html>
