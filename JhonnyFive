@@ -22,12 +22,15 @@
         <p>Tenho uma abordagem proativa para o aprendizado contínuo e a melhoria, sempre buscando novas maneiras de otimizar processos e alcançar resultados excepcionais. </p>
         <p>Como membro de qualquer equipe, ofereço não apenas habilidades técnicas impressionantes, mas também uma atitude colaborativa e orientada para soluções. Sou a escolha ideal para impulsionar a inovação e o sucesso em qualquer empreendimento.</p>
 
+        <hr>
+
         <h2>Principais Competencias</h2>
         <ul>
             <li>Programador em PHP, HTML, CSS e JavaScript</li>
             <li>Especialista em Emoções</li>
             <li>Grande Poder de Convencimen e Locução</li>
             <li>Ótimo Cozinheiro</li>
+            <li>Ótimo em Disfarce e Missões de Busca e Captura</li>
             <li>Alta Destreza e Cordenação Motora Fina Apurada</li>
         </ul>
         
@@ -38,16 +41,47 @@
             <li><a href="https://querobolsa.com.br/cpet/cursos/rio-grande-do-norte--sao-miguel-do-gostoso" target="_blank">Formado em Neuropsicopedagogia pela GSA ENSINO em São Miguel do Gostoso</a></li>
         </ul>
 
+        <hr>
+
         <h2>Experiencia Profissional</h2>
-        <ul>
-            <li>Programador</li>
-            <li>Garoto de Programa</li>
-            <li>Jornalista</li>
-            <li>Tio da Merenda</li>
-            <li>Engranagemcure (manicure para engrenagens)</li>
-        </ul>
+        <ol>
+            <li>Empresa Jequiti</li>
+            <ul>
+                <li>Programador do site da Jequiti</li>
+                <li>Vendedor dos produtos Jequiti</li>
+                <li>Entregador dos produtos Jequiti</li>
+            </ul>
+
+            <li>IFPR</li>
+            <ul>
+                <li>Tio da Merenda</li>
+                <li>Cozinheiro Master Thief do curso de Gastronomia (roubava a comida sem ninguém ver!)</li>
+            </ul>
+
+            <li>Engranagemcure Leila</li>
+            <ul>
+                <li>Lubrificamento das Engrenajens Capilares</li>
+                <li>Tratamento de Engrenagem</li>
+                <li>Engranagemcure (manicure para engrenagens)</li>
+            </ul>
+
+            <li>Rede Mão na Roda</li>
+            <ul>
+                <li>Programador do site da Rede Mão na Roda</li>
+                <li>Garoto de Programa</li>
+                <li>Jornalista</li>
+            </ul>
+        </ol>
+
+        <hr>
 
         <h2>Contato</h2>
+
+        <ul>
+            <li>Jhonny Five, Paraná, Foz do Iguaçu</li>
+            <li>(55)+45 99999-9999</li>
+            <li>jhonyfive@gmail.com</li>
+        </ul>
 
     </body>
 
